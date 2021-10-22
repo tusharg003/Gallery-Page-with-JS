@@ -189,6 +189,11 @@ header {
   .responsive-container {
     grid-template-columns: 1fr;
   }
+   .image img {
+    border-radius: 5px;
+    width: 250px;
+    height: 150px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //    */
